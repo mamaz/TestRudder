@@ -1,0 +1,22 @@
+PODS:
+  - Rudder (1.0.25-feedloop)
+
+DEPENDENCIES:
+  - Rudder (from `https://github.com/feedloop/rudder-sdk-ios.git`, tag `v1.0.25-feedloop`)
+
+EXTERNAL SOURCES:
+  Rudder:
+    :git: https://github.com/feedloop/rudder-sdk-ios.git
+    :tag: v1.0.25-feedloop
+
+CHECKOUT OPTIONS:
+  Rudder:
+    :git: https://github.com/feedloop/rudder-sdk-ios.git
+    :tag: v1.0.25-feedloop
+
+SPEC CHECKSUMS:
+  Rudder: e436b59f8f449ec9c834375479977f9e2259973b
+
+PODFILE CHECKSUM: 799f550f9b9d5a3573ab7a2d57259e250491a5c2
+
+COCOAPODS: 1.11.0

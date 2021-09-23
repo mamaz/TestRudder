@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <Rudder/Rudder.h>
+#import "Rudder/RSElementCache.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    NSURL *dataPlaneUrl = [NSURL URLWithString:@"https://dataplane.url"];
+    NSString *writeKey = @"...";
+    NSString *newUUID = [NSUUID UUID].UUIDString;
+
+    [RSClient setAnonymousIdOnce:newUUID];
+    [RSLogger logInfo:[NSString stringWithFormat:@">>>>> NEW UUID: %@",newUUID]];
+
+    RSConfigBuilder *builder = [[RSConfigBuilder alloc]init];
+    [builder withDataPlaneURL:dataPlaneUrl];
+    [builder withControlPlaneURL:dataPlaneUrl];
+    [builder withLoglevel:RSLogLevelDebug];
+    [RSClient getInstance:writeKey config:[builder build]];
+
+    // We use [RSElementCache getAnonymousId] since it is the right way
+    // of getting the real anonymous id from RSPreferenceManager
+    NSString *fetchedId = [RSElementCache getAnonymousId];
+    [RSLogger logInfo:[NSString stringWithFormat:@">>>>> SET UUID: %@",fetchedId]];
+
     return YES;
 }
 

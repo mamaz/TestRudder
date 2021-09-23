@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <Rudder/Rudder.h>
 
 @interface ViewController ()
 
@@ -17,7 +18,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [[RSClient sharedInstance] identify:@"terserah" traits:@{
+        @"regisId": @"lalalallallalalallallallalalla"
+    }];
 }
 
+- (IBAction)logout:(id)sender {
+    NSLog(@"LOGOUT >>>");
+    
+    // We should resetting anonymous id before resetting
+    // otherwise the identifier comes from identifier for vendor will remain the same per device
+    NSString *newUUID =[NSUUID UUID].UUIDString;
+    [RSClient setAnonymousId: newUUID];
+
+    
+    [[RSClient sharedInstance] reset];
+    
+    NSLog(@">>>>> UUID SET ON LOGOUT %@", newUUID);
+}
 
 @end

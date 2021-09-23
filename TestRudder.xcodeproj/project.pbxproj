@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98BC6FAD5F642EADC41BD127 /* Pods_TestRudder_TestRudderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8339EF9BCD5AC298505F01 /* Pods_TestRudder_TestRudderUITests.framework */; };
 		B1C05D5926EDE4B300143843 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C05D5826EDE4B300143843 /* AppDelegate.m */; };
 		B1C05D5C26EDE4B300143843 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C05D5B26EDE4B300143843 /* SceneDelegate.m */; };
 		B1C05D5F26EDE4B300143843 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C05D5E26EDE4B300143843 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 		B1C05D6A26EDE4B400143843 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C05D6926EDE4B400143843 /* main.m */; };
 		B1C05D7426EDE4B400143843 /* TestRudderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C05D7326EDE4B400143843 /* TestRudderTests.m */; };
 		B1C05D7F26EDE4B400143843 /* TestRudderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C05D7E26EDE4B400143843 /* TestRudderUITests.m */; };
+		C64D39F38776262758F92CF3 /* Pods_TestRudder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4371E09DE42E6C531942D59E /* Pods_TestRudder.framework */; };
+		D6C6300AA34780629102E523 /* Pods_TestRudderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987834ED9041F3DD19B83D53 /* Pods_TestRudderTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4371E09DE42E6C531942D59E /* Pods_TestRudder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestRudder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E9F153D827C5BAFB309DC4 /* Pods-TestRudder-TestRudderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRudder-TestRudderUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestRudder-TestRudderUITests/Pods-TestRudder-TestRudderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		50F15D266695C75497D4C497 /* Pods-TestRudder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRudder.debug.xcconfig"; path = "Target Support Files/Pods-TestRudder/Pods-TestRudder.debug.xcconfig"; sourceTree = "<group>"; };
+		8F8339EF9BCD5AC298505F01 /* Pods_TestRudder_TestRudderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestRudder_TestRudderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97CA94E1425C58E642CE7FBC /* Pods-TestRudderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRudderTests.release.xcconfig"; path = "Target Support Files/Pods-TestRudderTests/Pods-TestRudderTests.release.xcconfig"; sourceTree = "<group>"; };
+		987834ED9041F3DD19B83D53 /* Pods_TestRudderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestRudderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C05D5426EDE4B300143843 /* TestRudder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRudder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C05D5726EDE4B300143843 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1C05D5826EDE4B300143843 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +63,9 @@
 		B1C05D7A26EDE4B400143843 /* TestRudderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestRudderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C05D7E26EDE4B400143843 /* TestRudderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRudderUITests.m; sourceTree = "<group>"; };
 		B1C05D8026EDE4B400143843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C359B6400F88332B486E32E4 /* Pods-TestRudderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRudderTests.debug.xcconfig"; path = "Target Support Files/Pods-TestRudderTests/Pods-TestRudderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB662443771CED9B71F0F9DB /* Pods-TestRudder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRudder.release.xcconfig"; path = "Target Support Files/Pods-TestRudder/Pods-TestRudder.release.xcconfig"; sourceTree = "<group>"; };
+		F6B22446546D89C8426FD2BF /* Pods-TestRudder-TestRudderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRudder-TestRudderUITests.release.xcconfig"; path = "Target Support Files/Pods-TestRudder-TestRudderUITests/Pods-TestRudder-TestRudderUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64D39F38776262758F92CF3 /* Pods_TestRudder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C6300AA34780629102E523 /* Pods_TestRudderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98BC6FAD5F642EADC41BD127 /* Pods_TestRudder_TestRudderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A15526E6C3E82E2E1255EDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50F15D266695C75497D4C497 /* Pods-TestRudder.debug.xcconfig */,
+				EB662443771CED9B71F0F9DB /* Pods-TestRudder.release.xcconfig */,
+				44E9F153D827C5BAFB309DC4 /* Pods-TestRudder-TestRudderUITests.debug.xcconfig */,
+				F6B22446546D89C8426FD2BF /* Pods-TestRudder-TestRudderUITests.release.xcconfig */,
+				C359B6400F88332B486E32E4 /* Pods-TestRudderTests.debug.xcconfig */,
+				97CA94E1425C58E642CE7FBC /* Pods-TestRudderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B1C05D4B26EDE4B300143843 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +116,8 @@
 				B1C05D7226EDE4B400143843 /* TestRudderTests */,
 				B1C05D7D26EDE4B400143843 /* TestRudderUITests */,
 				B1C05D5526EDE4B300143843 /* Products */,
+				5A15526E6C3E82E2E1255EDC /* Pods */,
+				EEE8A690E6E1060CC420280F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +167,16 @@
 			path = TestRudderUITests;
 			sourceTree = "<group>";
 		};
+		EEE8A690E6E1060CC420280F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4371E09DE42E6C531942D59E /* Pods_TestRudder.framework */,
+				8F8339EF9BCD5AC298505F01 /* Pods_TestRudder_TestRudderUITests.framework */,
+				987834ED9041F3DD19B83D53 /* Pods_TestRudderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1C05D8326EDE4B400143843 /* Build configuration list for PBXNativeTarget "TestRudder" */;
 			buildPhases = (
+				BACDAB44DA2F17A50CDEB335 /* [CP] Check Pods Manifest.lock */,
 				B1C05D5026EDE4B300143843 /* Sources */,
 				B1C05D5126EDE4B300143843 /* Frameworks */,
 				B1C05D5226EDE4B300143843 /* Resources */,
+				336CDC3A8638AF4BCFB0058F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1C05D8626EDE4B400143843 /* Build configuration list for PBXNativeTarget "TestRudderTests" */;
 			buildPhases = (
+				CCC50C7F9210DB82B7E12DC7 /* [CP] Check Pods Manifest.lock */,
 				B1C05D6B26EDE4B400143843 /* Sources */,
 				B1C05D6C26EDE4B400143843 /* Frameworks */,
 				B1C05D6D26EDE4B400143843 /* Resources */,
@@ -179,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1C05D8926EDE4B400143843 /* Build configuration list for PBXNativeTarget "TestRudderUITests" */;
 			buildPhases = (
+				3E11992D1C2CE2EFE157BEAD /* [CP] Check Pods Manifest.lock */,
 				B1C05D7626EDE4B400143843 /* Sources */,
 				B1C05D7726EDE4B400143843 /* Frameworks */,
 				B1C05D7826EDE4B400143843 /* Resources */,
+				B556D3E99346E9D9C4B52F7F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +306,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		336CDC3A8638AF4BCFB0058F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestRudder/Pods-TestRudder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestRudder/Pods-TestRudder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestRudder/Pods-TestRudder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E11992D1C2CE2EFE157BEAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestRudder-TestRudderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B556D3E99346E9D9C4B52F7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestRudder-TestRudderUITests/Pods-TestRudder-TestRudderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestRudder-TestRudderUITests/Pods-TestRudder-TestRudderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestRudder-TestRudderUITests/Pods-TestRudder-TestRudderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BACDAB44DA2F17A50CDEB335 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestRudder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCC50C7F9210DB82B7E12DC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestRudderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B1C05D5026EDE4B300143843 /* Sources */ = {
@@ -437,9 +585,11 @@
 		};
 		B1C05D8426EDE4B400143843 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F15D266695C75497D4C497 /* Pods-TestRudder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97X777D9K8;
 				INFOPLIST_FILE = TestRudder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,9 +603,11 @@
 		};
 		B1C05D8526EDE4B400143843 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB662443771CED9B71F0F9DB /* Pods-TestRudder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97X777D9K8;
 				INFOPLIST_FILE = TestRudder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -469,6 +621,7 @@
 		};
 		B1C05D8726EDE4B400143843 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C359B6400F88332B486E32E4 /* Pods-TestRudderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +641,7 @@
 		};
 		B1C05D8826EDE4B400143843 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97CA94E1425C58E642CE7FBC /* Pods-TestRudderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +661,7 @@
 		};
 		B1C05D8A26EDE4B400143843 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E9F153D827C5BAFB309DC4 /* Pods-TestRudder-TestRudderUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestRudderUITests/Info.plist;
@@ -524,6 +679,7 @@
 		};
 		B1C05D8B26EDE4B400143843 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B22446546D89C8426FD2BF /* Pods-TestRudder-TestRudderUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestRudderUITests/Info.plist;
