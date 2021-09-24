@@ -1,4 +1,5 @@
 # TestRudder
+
 Testing updated implementation of Rudder SDK
 
 # Running
@@ -13,5 +14,7 @@ pod install
 2. Run the app
 
 You will see the anonymous id will be set only once when app is restarted.
+
+3. Logout
 
 If you want to reset, tap `Logout` button, this will set new UUID upon starting.
