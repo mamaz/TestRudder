@@ -28,7 +28,6 @@
     NSLog(@"LOGOUT >>>");
     
     // We should resetting anonymous id before resetting
-    // otherwise the identifier comes from identifier for vendor will remain the same per device
     NSString *newUUID =[NSUUID UUID].UUIDString;
     [RSClient setAnonymousId: newUUID];
 
